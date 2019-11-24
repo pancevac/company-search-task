@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Company A",
+    "rules": {
+      "required": [
+        "property_insurance"
+      ],
+      "optional": [
+        "apartment",
+        "house"
+      ]
+    }
+  },
+  {
+    "name": "Company B",
+    "rules": {
+      "required": [
+        "drivers_licence",
+        "car_insurance"
+      ],
+      "optional": [
+        "5_door_car",
+        "4_door_car"
+      ]
+    }
+  },
+  {
+    "name": "Company C",
+    "rules": {
+      "required": [
+        "social_security_number",
+        "work_permit"
+      ],
+      "optional": []
+    }
+  },
+  {
+    "name": "Company D",
+    "rules": {
+      "required": [],
+      "optional": [
+        "apartment",
+        "flat",
+        "house"
+      ]
+    }
+  },
+  {
+    "name": "Company E",
+    "rules": {
+      "required": [
+        "drivers_licence"
+      ],
+      "optional": [
+        "2_door_car",
+        "3_door_car",
+        "4_door_car",
+        "5_door_car"
+      ]
+    }
+  },
+  {
+    "name": "Company F",
+    "rules": {
+      "required": [
+        "drivers_licence",
+        "motorcycle_insurance"
+      ],
+      "optional": [
+        "scooter",
+        "bike",
+        "motorcycle"
+      ]
+    }
+  },
+  {
+    "name": "Company G",
+    "rules": {
+      "required": [
+        "massage_qualification_certificate",
+        "liability_insurance"
+      ],
+      "optional": []
+    }
+  },
+  {
+    "name": "Company H",
+    "rules": {
+      "required": [],
+      "optional": [
+        "storage_place",
+        "garage"
+      ]
+    }
+  },
+  {
+    "name": "Company J",
+    "rules": {
+      "required": [],
+      "optional": []
+    }
+  },
+  {
+    "name": "Company K",
+    "rules": {
+      "required": [
+        "PayPal"
+      ],
+      "optional": []
+    }
+  }
+]
