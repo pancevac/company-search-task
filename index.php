@@ -1,17 +1,17 @@
 <?php
 
-require 'src/Company.php';
-require 'src/CompanyLoader.php';
-require 'src/SearchManager.php';
+require __DIR__ . '/src/Company.php';
+require __DIR__ . '/src/CompanyLoader.php';
+require __DIR__ . '/src/SearchManager.php';
+
+$candidateProperties = ['bike', 'driving_licence'];
 
 $companyLoader = new CompanyLoader('./companies.json');
 $companies = $companyLoader->load();
-
-$candidateProperties = ['bike', 'driving_licence'];
 
 $searchManager = new SearchManager($companies);
 $approvedCompanies = $searchManager->getApprovedCompanies($candidateProperties);
 
 foreach ($approvedCompanies as $company) {
-    echo $company->getName() . ' matches with your properties.' . PHP_EOL;
+    echo $company->getName() . ' matches with candidate properties.' . PHP_EOL;
 }
